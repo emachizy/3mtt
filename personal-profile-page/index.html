@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>My Profile</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Hobbies</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="bio" aria-labelledby="bio-heading">
+        <header>
+          <h1 id="bio-heading">About Me</h1>
+        </header>
+        <article>
+          <figure>
+            <img
+              src="profile.jpg"
+              alt="A photo of John Doe"
+              class="profile-img"
+              width="200"
+            />
+            <figcaption>John Doe</figcaption>
+          </figure>
+          <div class="bio-content">
+            <p>
+              Hello! My name is John Doe, and I'm a web developer with a passion
+              for creating clean, responsive, and user-friendly websites.
+            </p>
+            <p>
+              When I'm not coding, I enjoy hiking, photography, and exploring
+              new technologies.
+            </p>
+            <p>
+              Feel free to
+              <a href="#contact" aria-label="Contact John Doe">contact me</a> if
+              you'd like to collaborate or just say hello!
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="hobbies">
+        <header>
+          <h1>Hobbies</h1>
+        </header>
+        <ol>
+          <li>Cooking</li>
+          <li>Photography</li>
+          <li>Learning new technologies</li>
+        </ol>
+      </section>
+    </header>
+    <footer aria-labelledby="footer-heading">
+      <section class="footer-content">
+        <div class="contact-info">
+          <h3 id="footer-heading">Contact Me</h3>
+          <ul>
+            <li>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:johndoe@example.com">johndoe@example.com</a>
+            </li>
+            <li>
+              <i class="fas fa-phone" aria-hidden="true"></i>
+              <a href="tel:+1234567890">+1 (234) 567-890</a>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 123 Main
+              St, Lagos, Nigeria
+            </li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <h3>Follow Me</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/johndoe" aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/johndoe" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/johndoe" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://instagram.com/johndoe" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer-bottom">
+        <p>&copy; 2023 EmTech. All rights reserved.</p>
+      </section>
+    </footer>
+  </body>
+</html>
